@@ -1,0 +1,60 @@
+#navLinks>ul {
+    list-style: none;
+}
+#navLinks>ul>li {
+    margin: 2vh 0vh;
+    font-size: larger;
+}
+
+#navLinks>ul>li>a {
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.828);
+    opacity: 0.9;
+
+}
+
+#navLinks>ul>li>a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+.list-group-item{
+    background-color: transparent;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.TitleText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 0px 0px;
+}
+.fontChange{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#listbody{
+    /* height: 100vh; */
+    min-height: 85vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    /* border: thin solid var(--dark); */
+}
+
+#loginForm{
+    min-height: 75vh;
+}
+.mainContainer{
+    min-height: 80vh;
+}
+.links{
+    text-decoration: none;
+    color: inherit;
+    
+}
+.links:hover{
+    text-decoration: none;
+}
