@@ -13,7 +13,7 @@ function Navbar() {
             <div className="text-center navbar-light bg-dark  py-2 " id='navbar'>
                 <Link className="navbar-brand float-lg-left ml-lg-5 px-auto  mx-auto mx-lg-5 px-2" to='/Home'>
                     <img src={dte} alt="DTE" className="img-fluid shadow"
-                        style={logostyle} id="logo" /></a>
+                        style={logostyle} id="logo" /></Link>
                 <b className="navbar-text text-center text-light ml-lg-5 px-auto  mx-auto mx-lg-5 px-2">
                     <h4 id='navtext'>शासकीय तंत्रनिकेतन अंबड</h4>
                 </b>
